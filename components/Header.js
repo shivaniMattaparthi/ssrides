@@ -69,7 +69,7 @@ function Header({ setActiveComponent }) {
   return (
     <div className="p-4 pb-0 pl-10 border-b-[2px] border-gray-200 flex items-center justify-between">
       <div className="flex gap-24 items-center">
-        <Image src="/logo.png" width={70} height={70} alt="logo" />
+        <Image src="/logoo.png" width={70} height={70} alt="logo" />
         <div className="flex gap-6 items-center">
           {HeaderMenu.map((item) => (
             <div 

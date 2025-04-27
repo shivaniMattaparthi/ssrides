@@ -18,10 +18,9 @@ function SearchSection() {
       {lat:destination.lat,lng:destination.lng}
     )
     console.log(dist,"dis")
-    setDistance((dist/1000).toFixed(1))
-    // converting the distance into miles
-    console.log(dist,"dist in km")
-    console.log(dist * 0.000621374,"disatance from lat and longitude")
+    setDistance((dist * 0.000621374).toFixed(1))
+   
+    console.log((dist * 0.000621374).toFixed(1),"disatance from lat and longitude")
   }
 
   // useEffect(()=>{

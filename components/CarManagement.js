@@ -283,7 +283,7 @@ const CarManagement = () => {
 
             {/* Car List Section */}
             <div className="bg-white p-6 rounded-lg shadow-md">
-                <h2 className="text-2xl font-bold text-gray-800 mb-6">Car List</h2>
+                <h2 className="text-2xl font-bold text-gray-800 mb-6">Registered Cars</h2>
                 {cars.length === 0 ? (
                     <p className="text-gray-600">No cars available. Add one above.</p>
                 ) : (
