@@ -34,9 +34,7 @@
 import SearchSection from "@/components/Home/SearchSection";
 import { Destination } from "@/context/Destination";
 import { SourceContext } from "@/context/SourceContext";
-import { UserButton } from "@clerk/nextjs";
 import { LoadScript } from "@react-google-maps/api";
-import Image from "next/image";
 import { useState } from "react";
 
 export default function Home() {

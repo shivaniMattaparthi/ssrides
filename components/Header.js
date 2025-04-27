@@ -43,7 +43,6 @@
 
 
 
-import { UserButton } from "@clerk/nextjs";
 import Image from "next/image";
 import React, { useState } from "react";
 
@@ -83,7 +82,6 @@ function Header({ setActiveComponent }) {
           ))}
         </div>
       </div>
-      <UserButton/>
     </div>
   );
 }
